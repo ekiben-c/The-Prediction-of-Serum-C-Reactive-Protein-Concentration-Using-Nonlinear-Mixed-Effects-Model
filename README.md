@@ -12,20 +12,6 @@ This repository contains the code and a dummy dataset for the paper **"The Predi
 
 In clinical settings, CRP is a critical biomarker for inflammation and postoperative infection. This study employs a bi-exponential model with random effects to predict CRP levels in hip surgery patients, capturing individual patient variations effectively. Using Monte Carlo simulations, the model estimates the distribution of CRP levels over time, supporting clinical decisions related to infection risk and patient recovery.
 
-## Code and Analysis Steps
-
-1. **Data Preprocessing**: The dataset is filtered and transformed to include relevant CRP concentration data from patients meeting inclusion criteria. The R script (`script.R`) loads, cleans, and prepares the data.
-
-2. **Modeling**: A nonlinear mixed-effects (NME) model with bi-exponential functions is applied to capture CRP concentration changes over time. 
-   
-   - **Model Fitting**: The model is fitted using the `nlme` R package, leveraging Lindstrom and Bates' (LB) algorithm for parameter estimation.
-   - **Simulation**: Monte Carlo simulation generates simulated CRP paths to evaluate prediction accuracy and analyze concentration patterns.
-   - **Metrics Calculation**: Model performance is evaluated using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
-
-3. **Statistical Analysis**: An ANOVA test compares CRP levels across age groups, followed by Tukey-Kramer post-hoc comparisons to analyze statistically significant differences.
-
-4. **Visualization**: The R script includes code to plot CRP concentration trends, model predictions, and simulation results.
-
 ## Requirements
 
 The following R packages are required for running the analysis:
