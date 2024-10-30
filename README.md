@@ -48,10 +48,10 @@ To run the analysis:
 
 ## Citation
 
-If you use this code or data in your research, please cite the paper:
+If you use this code or data in your research, please cite this repository:
 
-> Bae, S.J., Kim, G.R., Chae, S.G., Kim, Y. (2024). The Prediction of Serum C-Reactive Protein Concentration Using Nonlinear Mixed-Effects Model. *IEEE Access*. DOI: 10.1109/ACCESS.2024.0429000
-
+> Bae, S.J., Kim, G.R., Chae, S.G., Kim, Y. (2024). The Prediction of Serum C-Reactive Protein Concentration Using Nonlinear Mixed-Effects Model. GitHub repository, https://github.com/ekiben-c/The-Prediction-of-Serum-C-Reactive-Protein-Concentration-Using-Nonlinear-Mixed-Effects-Model
+> 
 ## License
 
 This repository is licensed under the MIT License.
