@@ -6,7 +6,6 @@ This repository contains the code and a dummy dataset for the paper **"The Predi
 
 - `data/`: This folder includes a **dummy dataset** (`diagnosisAndCrptest2.csv`) with essential columns used in the study. The dummy data is generated to simulate CRP concentration and other patient-related variables.
 - `script.R`: The primary R script for data preprocessing, model building, evaluation, and visualization as outlined in the paper.
-- `README.md`: This file.
 
 ## Overview of the Study
 
